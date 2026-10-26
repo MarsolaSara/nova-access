@@ -1,0 +1,25 @@
+NOVA ACCESS • INICIAR NO WINDOWS
+================================
+
+1) Abra a pasta "backend" no IntelliJ.
+   Rode a classe NovaAccessApplication.java (botão verde ao lado do main).
+   OU abra PowerShell dentro de "backend" e digite:
+      mvn spring-boot:run
+
+2) Abra OUTRO terminal dentro de "frontend":
+      npm install
+      npm run dev
+
+3) Abra: http://localhost:5173
+
+4) Clique em "Usar conta demo" e depois "Entrar na minha conta".
+
+DADOS DE LOGIN
+E-mail: sara@demo.com
+Senha: Demo@123
+
+REQUISITOS
+Java 21+, Maven 3.9+, Node.js 20.19+ (ou 22.12+) e npm.
+
+ATENÇÃO: O backend fica em 8080; o site fica em 5173.
+Deixe o backend e o frontend executando ao mesmo tempo.

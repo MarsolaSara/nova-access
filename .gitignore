@@ -1,0 +1,19 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Backend
+backend/target/
+*.class
+
+# IDE/editor
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Secrets and environment
+.env
+.env.*
+!.env.example

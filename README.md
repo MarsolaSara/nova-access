@@ -63,43 +63,7 @@ Além da interface de login e do painel responsivo, o projeto utiliza autentica�
 
 ## Como executar
 
-### Pré-requisitos
-
-- JDK 21 ou superior
-- Maven 3.9 ou superior
-- Node.js 20.19+ ou 22.12+, com npm
-
-Confirme as versões instaladas:
-
-```powershell
-java -version
-mvn -version
-node -v
-npm -v
-```
-
-### 1. Inicie o backend
-
-Abra um terminal na pasta `backend` e execute:
-
-```powershell
-cd backend
-mvn spring-boot:run
-```
-
-A API ficará disponível em `http://localhost:8080`.
-
-### 2. Inicie o frontend
-
-Em outro terminal, na raiz do projeto:
-
-```powershell
-cd frontend
-npm install
-npm run dev
-```
-
-Abra `http://localhost:5173` no navegador. Mantenha os dois processos em execução enquanto testa a aplicação. O Vite encaminha as requisições `/api` para o backend em `localhost:8080`.
+Acesse o link: https://nova-access-nine.vercel.app/
 
 ### Conta de demonstração
 
